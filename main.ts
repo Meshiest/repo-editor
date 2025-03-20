@@ -9,7 +9,7 @@ if (import.meta.main) {
   const file = Deno.args[0];
 
   if (!file) {
-    console.error('Usage: deno run start <file>');
+    console.error('Missing file argument');
     Deno.exit(1);
   }
 
