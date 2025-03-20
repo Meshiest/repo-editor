@@ -1,0 +1,9 @@
+{
+  "tasks": {
+    "start": "deno run --allow-read --allow-write main.ts"
+  },
+  "imports": {
+    "@deno-library/compress": "jsr:@deno-library/compress@^0.5.5",
+    "@types/node": "npm:@types/node@^22.13.10"
+  }
+}
